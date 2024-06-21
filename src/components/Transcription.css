@@ -1,0 +1,89 @@
+.transcription {
+    padding: 20px;
+    background: #fff;
+    margin: 10px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.1);
+  }
+
+  input[type="checkbox"] {
+    color: red;
+  }
+  
+  .transcription p {
+    margin: 10px 0;
+  }
+  
+  .highlight {
+    font-weight: bold;
+    color: blue;
+  }
+  
+  .transcription {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+  }
+  
+  .transcription button {
+    background: none;
+    border: none;
+    color: blue;
+    cursor: pointer;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .transcription-detailed {
+    display: flex;
+    align-items: center;
+    gap: 20px
+  }
+  
+  .transcription .client-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .transcription .emotion {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  
+  .transcription .emotions {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .transcription .emoji {
+    font-size: 24px;
+    margin: 0 5px;
+  }
+  
+  .transcription .tips {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .transcription .user-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .transcription .user-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+
+  .client-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
